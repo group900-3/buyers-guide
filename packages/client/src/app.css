@@ -1,0 +1,9 @@
+@import "icons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1d1d1f;
+}

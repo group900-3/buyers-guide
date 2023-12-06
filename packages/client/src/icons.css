@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "font-awesome";
+  src: url("data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAU8AA0AAAAACOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAFIAAAABoAAAAcmI1z90dERUYAAAUEAAAAHAAAAB4AJwAPT1MvMgAAAZQAAAA+AAAAYA8TDN5jbWFwAAAB7AAAAFkAAAFm8LP4ZGdhc3AAAAT8AAAACAAAAAgAAAAQZ2x5ZgAAAlwAAAGIAAADTClr2O5oZWFkAAABMAAAACoAAAA2JXSRWWhoZWEAAAFcAAAAHQAAACQHMAPHaG10eAAAAdQAAAAWAAAAHgrDAABsb2NhAAACSAAAABQAAAAUAbYCpG1heHAAAAF8AAAAGAAAACAADQBabmFtZQAAA+QAAADcAAABm/pYTdhwb3N0AAAEwAAAADwAAABjtxfE9XjaY2BkAIPwpWkc8fw2Xxm4WcD8hyXLypFp5jzmPCDFwcAE4gEABpII6gAAeNpjYGRgYD7w/wADAwsDCDDnMTAyoAI2AFRuAwAAAAB42mNgZGBg4GSIYGBmAAEmBjQAAAoxAGh42mNgZvZknMDAysDANJPpDAMDQz+EZnzNYMzIyYAKGAXQBBgcGBg/ZDEf+H+AwYEZiEFqkGQVGBgBQbkLAwAAeNpjYYAAxlAIzQTEzHlQQQYAC70AzgAAeNpjYGBgZoBgGQZGBhBIAPIYwXwWBhcgzcPAwcAEZDMyKHyI+JD1/+///2B1Ch/CYLz/T/jX888D6+NhQABGkLmMbEDMDBVgAhJMDKgAaBcLw/AGAAr6EfQAAAAAAAAAAAgACAAQABgAXADeAUIBpnjajZI7T8MwEMd9SW2njyRDmmSBoiYoHYqKlKdQJUBi6paNoWwMCUO7dkNiZAN2Pkc+BeongBk+BBV2HpRHU7jBdz6d7d//zghQZQJCRwL6ay/wUJyLc6SiIUIQ+I7dt8gudA2v74ZRlypAiW0NRjBwAj86hij0XLMHpiFkhrqaqLquQqYamW0t4ng6jeOFbVl2FVs2PExUw1B5oV9k1pVlXNCUHGN0zjh85xDYYwH3I7AtosKg9AroXWMPaOl74LnhCZilZ4DbmO8JTlNMCPaxQqmCkxTLVJKJx3NJwlePyBKVcZoUFT4mz7Xawu+F/7r8tq4L6x7so9OyB5u151ojpjUwt4l9wcTPCfDbTcXIbFnEEBJ8V6dM0CQF59yvN18ULfl5iNilF/WzFD917KADdMaUFDz6RlaNzXgIxZcbgxsONN9hBTzFR6wV2Qiynw9WwJOWNJPabba0oCWKAm1cNyjzzY50JbVBnP9iLOP3aEY7HcoPP8GliIXcsLh6JM0mQR/aTH3/eNp1zrFqwlAYxfF/NFq0IJ1K6XRHp6DgA3QqdXDpIB0b4yUE9F6IEXTvI3TsM/RhfCJPwrcmcMPvOzfnI8CMfxLaJ+GBJ/NAnpuH8ps5lb/MIx65mMfKf81TXrmplaQTJbNuQ+uB/GIeygtzKn+YRzzzbR4r/zFPWfFHRUHkqBMJUBXxGKPwiafkzIGcWqMvz4dc6Pu+L99qT81J923uWJLpL9n6+lTF4JbZor/73s2NWqW2hG5TrtmzV7bjqve6626sm6kUQ+NKH3ydN37vdle3LuJG+zLu5ds+Q3jaY2BiwA84GRgYmRiYGJkZmBlZGFkZ2RjZ2dJzKgsyDNlL8zINDAzAtJuBqRmUNofSFhDazBEAUj4NgAABAAH//wAPeNpjYGRgYOABYjEgZmJgBEIOIGYB8xgAA/YAN3jaY2BgYGQAgqtL1DlA9MOSZeUwGgBBIQaOAAA=")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+.fa,
+.fas {
+  font-family: "font-awesome";
+  font-weight: 900;
+}

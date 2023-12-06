@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled",
+    "start": "wrangler dev",
+    "db:gen": "drizzle-kit generate:sqlite --schema=src/schema.ts --out=migrations",
+    "db:mig-local": "wrangler d1 migrations apply macrumors --local",
+    "db:mig": "wrangler d1 migrations apply macrumors"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "drizzle-kit": "^0.20.2",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.15.0"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "drizzle-orm": "^0.29.0"
+  }
+}
