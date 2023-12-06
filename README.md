@@ -16,5 +16,5 @@ Cloudflare 的 D1、KV、Durable Object 都可以用来存储数据。
 
 ## Taro client
 
-修改`packages/server/wrangler.toml.example` 为 `packages/server/wrangler.toml`，并替换你的 cloudflare 账号信息。
+修改`packages/server/wrangler.toml.example` 为 `packages/server/wrangler.toml`，并替换你的 cloudflare 账号信息。  
 修改 `packages/client/.env.production` 中的地址为你的 worker 地址。
