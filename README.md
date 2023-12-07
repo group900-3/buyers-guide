@@ -1,3 +1,4 @@
+![screenshot.PNG](screenshot.PNG)
 # Buyer's Guide Theif Worker
 
 ## 使用 cloudflare workers 从 macrumors 抓取 buyer's guide
